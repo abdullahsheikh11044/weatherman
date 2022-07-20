@@ -1,23 +1,6 @@
 require 'csv'
 require 'date'
 require 'colorize'
-=begin
-    
-rescue => exception
-    
-end
-class first
-    def initializer(highest_temp,hday,lowest_temprature,lday,most_humid,humidity)
-        @highest_temp=highest_temp
-        @hday=hday
-        @lowest_temprature=lowest_temprature
-        @lday=lday
-        @most_humid=most_humid
-        @humidity=humidity
-    end
-=end
-
-
 b=0
 d=0
 month=ARGV[2].to_s
@@ -55,7 +38,6 @@ a=0
     a+=1
         
 end
-#b+=1
 print " #{row[3].to_i}C"
 puts " "
 end
